@@ -1,0 +1,9 @@
+Ans1.Some variables have a suffix '(D)' because it is not assigned any value and it is directly used in conditional statement.
+
+
+Ans2.The paths of two variable assignments merge in basic block 5.
+The synatx for PHI statements is such thet PHI<p_1,p_2,....p_n>
+In this p_i is name_bb where name is name of variable like a,b,etc and bb is the number of basic block in which it was assigned value.
+
+
+Ans3. Can't find answer.

@@ -1,0 +1,6 @@
+Ans1.The array which is only declared with size is written as it is and the onw which is declared and initialized is first declared with its size and the values are assigned to each index.
+
+Ans2..GIMPLE can perform one operation at a time. Hence a temporary variable is introduced and then it is assigned the values.
+
+
+Ans3. Clobber is for variable that are pointers. They denote that the scope of a varible has ended there.

@@ -1,0 +1,7 @@
+Q1.The multiple variables declared on one line are declared seperately one under another, in the same order in which they were declared.Globally declared variable is not declared again.
+
+Q2.When we have to perform more than one operations in a line then we have to introduce temporary variables.
+
+Q3. Floats are represented using scientific notation.
+
+Q4. To perform the statement z = z+1 we cant directly change the value of z as we have to perform the arithmatic addition first. So to perform addition we will first store the value of z in a temporary variable and then perform addition and then we will store it in z. 

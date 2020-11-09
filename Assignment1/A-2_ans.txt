@@ -1,0 +1,4 @@
+Q1.If the condition in the "if block" is true then it has a goto of a unique address . Then the statements in that goto are executed and after the statements in that goto are executed then to impelement the next execution there is another goto statement.
+	Conditional gotos are written with if and else statement whereas unconditional gotos are not written with if and else condition. 
+
+Q2.Yes it becomes easy to read and understand the contrl flow using control flow graph.
