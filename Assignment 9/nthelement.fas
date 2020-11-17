@@ -1,0 +1,74 @@
+(|SYSTEM|::|VERSION| '(20080430.))
+#0Y_ #0Y |CHARSET|::|UTF-8|
+#Y(#:|1 1 (FORMAT T "Enter the size of the list : ")-1|
+   #18Y(00 00 00 00 00 00 00 00 20 01 DA 6B 01 33 01 15 19 01)
+   (#Y(#:|1 1 (FORMAT T "Enter the size of the list : ")-1-1|
+       #19Y(00 00 00 00 01 00 00 00 21 17 DA AF 38 02 31 95 9E 19 03)
+       ("Enter the size of the list : ")
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+    |COMMON-LISP|::|*STANDARD-OUTPUT*|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|2 2 (DEFVAR M (READ))-2|
+   #27Y(00 00 00 00 00 00 00 00 20 01 DA 31 62 DB 8C 57 07 DB 38 04 71 7F 31 5A
+        C6 19 01)
+   ((|COMMON-LISP|::|SPECIAL| |COMMON-LISP-USER|::|M|) |COMMON-LISP-USER|::|M|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|4 4 (DEFVAR L 'NIL)-3|
+   #24Y(00 00 00 00 00 00 00 00 20 01 DA 31 62 DB 8C 57 04 DB 63 31 5A C6 19
+        01)
+   ((|COMMON-LISP|::|SPECIAL| |COMMON-LISP-USER|::|L|) |COMMON-LISP-USER|::|L|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|6 6 (FORMAT T "Enter the elements of the list : ~%")-4|
+   #18Y(00 00 00 00 00 00 00 00 20 01 DA 6B 01 33 01 15 19 01)
+   (#Y(#:|6 6 (FORMAT T "Enter the elements of the list : ~%")-4-1|
+       #19Y(00 00 00 00 01 00 00 00 21 17 DA AF 38 02 31 95 9E 19 03)
+       ("Enter the elements of the list : \n")
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+    |COMMON-LISP|::|*STANDARD-OUTPUT*|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|7 9 (LOOP FOR X ...)-5|
+   #35Y(00 00 00 00 00 00 00 00 20 01 DA 6B 01 1B 0B 38 04 71 7F 0E 02 5D 0F 02
+        85 01 AD AD 91 01 32 6F 00 19 03)
+   (1. |COMMON-LISP-USER|::|M| |COMMON-LISP-USER|::|L|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|11 11 (SETQ L (REVERSE L))-6|
+   #18Y(00 00 00 00 00 00 00 00 20 01 6B 00 32 63 0F 00 19 01)
+   (|COMMON-LISP-USER|::|L|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|13 13 (FORMAT T "Entered List : ~a ~%" ...)-7|
+   #20Y(00 00 00 00 00 00 00 00 20 01 DA 6B 01 6B 02 33 02 15 19 01)
+   (#Y(#:|13 13 (FORMAT T "Entered List : ~a ~%" ...)-7-1|
+       #29Y(00 00 00 00 02 00 00 00 21 18 DA B0 38 02 31 95 AE B0 31 90 DB B0
+            38 02 31 95 9E 19 04)
+       ("Entered List : " " \n")
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+    |COMMON-LISP|::|*STANDARD-OUTPUT*| |COMMON-LISP-USER|::|L|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|15 15 (FORMAT T "Enter position of element in the list : ")-8|
+   #18Y(00 00 00 00 00 00 00 00 20 01 DA 6B 01 33 01 15 19 01)
+   (#Y(#:|15 15 (FORMAT T "Enter position of element in the list : ")-8-1|
+       #19Y(00 00 00 00 01 00 00 00 21 17 DA AF 38 02 31 95 9E 19 03)
+       ("Enter position of element in the list : ")
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+    |COMMON-LISP|::|*STANDARD-OUTPUT*|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|16 16 (DEFVAR N (READ))-9|
+   #27Y(00 00 00 00 00 00 00 00 20 01 DA 31 62 DB 8C 57 07 DB 38 04 71 7F 31 5A
+        C6 19 01)
+   ((|COMMON-LISP|::|SPECIAL| |COMMON-LISP-USER|::|N|) |COMMON-LISP-USER|::|N|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|18 20 (LOOP FOR X ...)-10|
+   #33Y(00 00 00 00 00 00 00 00 20 01 DA 6B 01 72 B2 1B 07 0E 02 5C 0F 02 85 01
+        AD AD 91 01 32 73 00 19 03)
+   (1. |COMMON-LISP-USER|::|N| |COMMON-LISP-USER|::|L|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|22 22 (FORMAT T "The ~a element of list : ~a" ...)-11|
+   #23Y(00 00 00 00 00 00 00 00 20 01 DA 6B 01 6B 02 0E 03 78 33 03 15 19 01)
+   (#Y(#:|22 22 (FORMAT T "The ~a element of list : ~a" ...)-11-1|
+       #33Y(00 00 00 00 03 00 00 00 21 19 DA B1 38 02 31 95 AF B1 31 90 DB B1
+            38 02 31 95 AE B1 31 90 9E 19 05)
+       ("The " " element of list : ")
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+    |COMMON-LISP|::|*STANDARD-OUTPUT*| |COMMON-LISP-USER|::|N|
+    |COMMON-LISP-USER|::|L|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
